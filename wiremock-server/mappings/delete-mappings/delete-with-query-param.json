@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "DELETE",
+    "urlPath": "/",
+    "queryParameters": {
+      "id": {
+        "matches": ".*"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "delete/delete-with-query-param.json",
+    "transformers": ["response-template"]
+  }
+}

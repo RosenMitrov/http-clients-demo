@@ -1,0 +1,10 @@
+{
+  "message": "Found computer",
+  "computer" : {
+    "id": "{{request.pathSegments.[2]}}",
+    "brand": "{{request.query.brand}}",
+    "model": "{{request.query.model}}",
+    "year": "{{request.query.year}}",
+    "price": "{{request.query.price}}"
+  }
+}

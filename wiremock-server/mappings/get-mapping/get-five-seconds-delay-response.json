@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/delay"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "get/get-five-seconds-delay-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "fixedDelayMilliseconds": 5000
+  }
+}

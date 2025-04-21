@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/computers/echo"
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "post/post-computer-echo-back.json",
+    "transformers": ["response-template"],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

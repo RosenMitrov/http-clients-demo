@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/computers"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "get/get-computer-list.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

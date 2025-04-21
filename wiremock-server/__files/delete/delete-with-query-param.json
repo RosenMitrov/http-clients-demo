@@ -1,0 +1,4 @@
+{
+  "id": "{{request.query.id}}",
+  "message": "Deleted successfully"
+}

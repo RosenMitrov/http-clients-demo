@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/auth/login",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.username)]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.password == 'secret123')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "transformers": ["response-template"],
+    "bodyFileName": "post/post-authentication-success.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
