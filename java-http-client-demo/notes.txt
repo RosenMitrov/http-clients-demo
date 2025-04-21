@@ -1,0 +1,83 @@
+1. Basic HTTP Requests with HttpClient
+GET, POST, PUT, PATCH, DELETE, HEAD
+
+Handling query parameters, headers, and body
+
+Sending JSON, XML, and form data
+
+Setting timeouts (connection and read timeouts)
+
+2. Advanced Features of HttpClient
+Handling cookies, redirects, and authentication (Basic, Digest, Bearer token)
+
+Setting custom request headers (e.g., User-Agent, Authorization)
+
+Error handling (timeouts, HTTP errors, retries)
+
+Connection pooling and performance optimizations
+
+SSL/TLS configurations for secure communication
+
+3. Setting Up WireMockServer
+Setting up WireMock to run locally in Docker (as you’ve done already)
+
+Understanding how WireMock works (stubbing, mocking, verification)
+
+Creating mappings and response files for various scenarios (status codes, headers, delays, etc.)
+
+4. WireMock - Basic Operations
+Creating simple stubs for GET/POST/PUT/DELETE requests
+
+Returning mock responses with custom headers, body, and status codes
+
+Working with query parameters and path variables in WireMock
+
+5. Advanced WireMock Features
+Response templating (dynamic content in response bodies)
+
+Simulating latency, failures, or service down scenarios
+
+Working with request/response matchers (e.g., JSON body, headers, query params)
+
+Using WireMock for contract testing
+
+Verifying interactions (request counts, request body, etc.)
+
+6. Using WireMock to Simulate Real-World Services
+Mocking third-party services and APIs (e.g., payment gateways, external REST APIs)
+
+Simulating 404/500 errors, timeouts, slow responses, etc.
+
+Using WireMock to simulate rate-limited services or API errors
+
+7. Testing with HttpClient and WireMock
+Writing tests to verify interaction between your HttpClient and WireMock server
+
+Verifying request headers, body, and status codes in tests
+
+Setting up WireMock stubs to simulate API responses
+
+Handling timeouts and retries in tests using WireMock
+
+8. Integration with Frameworks (Optional but beneficial)
+Integrating WireMock with JUnit 5 for unit and integration tests
+
+Using WireMock with Spring Boot (e.g., @WireMockRule for integration testing)
+
+Using WireMock in CI/CD pipelines for automated testing
+
+Creating a mock HTTP server for automated testing (e.g., for microservices)
+
+9. Debugging and Logging
+Logging requests and responses for debugging purposes
+
+WireMock logging and access to logs for troubleshooting
+
+Understanding WireMock's verbose mode and how to enable it
+
+10. Performance and Scalability
+Scaling WireMock for larger projects or high request volumes
+
+Understanding how to configure WireMock for production-like environments
+
+Managing large numbers of mock requests and stubs efficiently
