@@ -1,0 +1,8 @@
+{
+  "message": "Authentication successful",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.sample.jwt.token",
+  "user": {
+    "username": "{{jsonPath request.body '$.username'}}",
+    "role": "ADMIN"
+  }
+}

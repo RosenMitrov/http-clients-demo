@@ -1,0 +1,30 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/computer/[0-9]+",
+    "queryParameters": {
+      "brand": {
+        "equalTo": "Lenovo"
+      },
+      "model": {
+        "equalTo": "ThinkPad"
+      },
+      "year": {
+        "equalTo": "2025"
+      },
+      "price": {
+        "equalTo": "2000.00"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "get/get-computer-by-id-and-query-params.json",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "transformers": [
+      "response-template"
+    ]
+  }
+}

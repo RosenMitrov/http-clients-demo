@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/computers",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.id == '777')]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.brand == 'HP')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "post/post-computer-created.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

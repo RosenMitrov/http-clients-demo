@@ -1,0 +1,23 @@
+[
+  {
+    "id": "123",
+    "brand": "Lenovo",
+    "model": "ThinkPad X1",
+    "year": 2023,
+    "price": 1499.99
+  },
+  {
+    "id": "124",
+    "brand": "Apple",
+    "model": "MacBook Pro",
+    "year": 2022,
+    "price": 2399.00
+  },
+  {
+    "id": "125",
+    "brand": "Dell",
+    "model": "XPS 13",
+    "year": 2023,
+    "price": 1299.99
+  }
+]

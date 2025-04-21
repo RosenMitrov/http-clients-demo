@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "PUT",
+    "url": "/api/computer/666",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.id)]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.brand)]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.model)]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.year)]"
+      },
+      {
+        "matchesJsonPath": "$[?(@.price)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "put/put-computer-update-response.json",
+    "transformers": [
+      "response-template"
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

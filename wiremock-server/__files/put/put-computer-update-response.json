@@ -1,0 +1,4 @@
+{
+  "message": "Computer updated successfully",
+  "computer": {{request.body}}
+}
